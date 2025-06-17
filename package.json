@@ -20,7 +20,7 @@
   "fix": "pnpm fix:sherif && pnpm fix:dep && pnpm fix:oxlint && pnpm fix:format && pnpm fix:lint"
 }
 
-  }
+  
   "lint-staged": {
     "**/*.{js,mjs,cjs,jsx,ts,mts,cts,tsx}": [
       "oxlint -c .oxlintrc.json --fix --fix-suggestions",
